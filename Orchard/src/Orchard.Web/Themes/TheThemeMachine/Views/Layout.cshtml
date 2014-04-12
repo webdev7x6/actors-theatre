@@ -58,14 +58,16 @@
 <header id="layout-header" class="group">
     <div id="header">
         @Zone(Model.Header)
+        @if (Model.Navigation != null)
+        {
+            <div id="layout-navigation" class="group">
+                @Zone(Model.Navigation)
+            </div>
+        }
     </div>
 </header>
 }
-@if (Model.Navigation != null) {
-<div id="layout-navigation" class="group">
-    @Zone(Model.Navigation)
-</div>
-}
+
 @if (Model.Featured != null) {
 <div id="layout-featured" class="group">
     @Zone(Model.Featured)
