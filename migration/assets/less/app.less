@@ -18,6 +18,18 @@ footer#footer {
 }
 
 //Class styling (alphabetical)
+.btn-default {
+  background:@black;
+  border:none;
+  border-radius: 0;
+  color:white;
+  text-transform:uppercase;
+}
+
+.btn-lg {
+  font-size: 14px;
+}
+
 .carousel {
   .item {
     min-height:800px;
@@ -28,6 +40,17 @@ footer#footer {
     left:0;
     min-height:800px;
     //width:auto;
+  }
+}
+
+.date-callout {
+  h5 {
+    border-top: none;
+    border-bottom:none;
+    padding-top:0;
+    padding-bottom:0;
+    margin-top:20px;
+    text-align:right;
   }
 }
 
@@ -78,6 +101,16 @@ footer#footer {
 .navbar-inverse {
   background-color: @black;
   border:none;
+}
+
+.news, .person {
+  h6 {
+    color: @red;
+  }
+}
+
+.news {
+  margin-top: @content-gutter;
 }
 
 .panel-group {
