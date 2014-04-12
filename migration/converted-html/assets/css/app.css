@@ -5975,6 +5975,9 @@ footer#footer {
   left: 0;
   min-height: 800px;
 }
+.homepage-show-img {
+  width: 100%;
+}
 .homepage-update-text {
   position: relative;
   z-index: 3;
@@ -6025,13 +6028,14 @@ footer#footer {
 }
 .person img {
   width: 100%;
+  margin-top: 20px;
 }
 #homepage-current-season {
   padding-top: 64px;
   padding-bottom: 64px;
 }
 #homepage-update {
-  background: #f05a4e;
+  background: #ef433b;
   text-align: center;
 }
 #navbar-wrapper {
